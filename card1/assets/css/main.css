@@ -6,19 +6,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
-
   overflow: hidden;
-
   color: #fff;
   background: #000;
-
-  -webkit-font-smoothing: antialiased;
 }
 
 h1,h2,h3,h4,h5,h6,p,a {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-
   color: #fff;
 }
 
@@ -39,12 +34,13 @@ h5 {
 }
 
 h6 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 p {
   font-size: 1.4rem;
 }
+
 .tlinks {
   text-indent: -9999px;
   height: 0;
@@ -65,30 +61,6 @@ a:focus {
 
 a:hover {
   color: #fff;
-}
-
-@media (max-width: 700px) {
-  html {
-    font-size: 8px !important;
-  }
-}
-
-@media (max-width: 500px) {
-  html {
-    font-size: 6px !important;
-  }
-}
-
-@media (max-width: 350px) {
-  html {
-    font-size: 5px !important;
-  }
-}
-
-@media (orientation: landscape) and (max-height: 420px) {
-  html {
-    font-size: 8px !important;
-  }
 }
 
 .hero {
@@ -119,7 +91,6 @@ a:hover {
   -webkit-transform: translateY(10vh);
   -ms-transform: translateY(10vh);
   transform: translateY(10vh);
-
   opacity: 0;
 }
 
@@ -127,7 +98,6 @@ a:hover {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
-
   opacity: 1;
 }
 
@@ -135,7 +105,6 @@ a:hover {
   -webkit-transform: translateX(10vh);
   -ms-transform: translateX(10vh);
   transform: translateX(10vh);
-
   opacity: 0;
 }
 
@@ -143,7 +112,6 @@ a:hover {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
-
   opacity: 1;
 }
 
@@ -151,7 +119,6 @@ a:hover {
   -webkit-transform: translateX(-10vh);
   -ms-transform: translateX(-10vh);
   transform: translateX(-10vh);
-
   opacity: 0;
 }
 
@@ -159,7 +126,6 @@ a:hover {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
-
   opacity: 1;
 }
 
@@ -168,7 +134,6 @@ a:hover {
   z-index: 2;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
 }
@@ -177,9 +142,7 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 0;
-
   width: 100%;
-
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -189,22 +152,18 @@ a:hover {
 .hero .front-content .container-mid h1 {
   font-weight: bold;
   line-height: 1.1em;
-
   margin-top: 0.5em;
   margin-bottom: 0.46em;
-
   letter-spacing: 0.025em;
 }
 
 .hero .front-content .container-mid p.subline {
   font-size: 3rem;
   line-height: 1.4em;
-
   max-width: 18em;
   margin-right: auto;
   margin-bottom: 1.3em;
   margin-left: auto;
-
   letter-spacing: 0.025em;
 }
 
@@ -212,20 +171,15 @@ a:hover {
   font-size: 2.2rem;
   font-weight: 500;
   line-height: 2.6em;
-
   position: relative;
-
   display: inline-block;
   overflow: hidden;
-
   padding: 0 2.6em;
-
   cursor: pointer;
   -webkit-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
   letter-spacing: 0.025em;
-
   color: #fff;
   border: 3px solid #fff;
   border-radius: 4em;
@@ -240,17 +194,13 @@ a:hover {
 .hero .front-content .footer {
   position: absolute;
   bottom: 10px;
-
   width: 100%;
-
   text-align: center;
 }
 
 .hero .front-content .footer p {
   font-size: 1.3rem;
-
   letter-spacing: 0.025em;
-
   opacity: 0.85;
 }
 
@@ -269,7 +219,6 @@ a:hover {
   z-index: 1;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
 }
@@ -279,10 +228,8 @@ a:hover {
   z-index: 1;
   top: 50%;
   left: 50%;
-
   width: 110%;
   height: 110%;
-
   -webkit-transform: translate3d(-50%, -50%, 0px) !important;
   transform: translate3d(-50%, -50%, 0px) !important;
 }
@@ -292,10 +239,8 @@ a:hover {
   z-index: 50;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
   opacity: 0.7;
   background: #020026;
 }
@@ -305,10 +250,8 @@ a:hover {
   z-index: 1;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
   background: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,26 +261,20 @@ a:hover {
   z-index: -100;
   top: 0;
   left: 0;
-
   overflow-y: auto;
-
   width: 100%;
   height: 100%;
-
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
   pointer-events: none;
-
   opacity: 0;
   background: rgba(5, 5, 5, 0.5);
 }
 
 .popup.show {
   z-index: 100;
-
   pointer-events: all;
-
   opacity: 1;
 }
 
@@ -346,7 +283,6 @@ a:hover {
   z-index: 0;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
 }
@@ -356,15 +292,12 @@ a:hover {
   z-index: 5;
   top: 60%;
   left: 50%;
-
   max-width: 410px;
-  padding: 90px 46px;
-
+  padding: 80px 46px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-
   opacity: 0;
   border: 5px solid #fff;
   background: red;
@@ -375,11 +308,9 @@ a:hover {
 
 .popup.show .card {
   top: 50%;
-
   -webkit-transition: 0.4s ease;
   -o-transition: 0.4s ease;
   transition: 0.4s ease;
-
   opacity: 1;
 }
 
@@ -388,12 +319,9 @@ a:hover {
   z-index: -2;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
   content: "";
-
   opacity: 0.4;
   background: #111;
 }
@@ -402,10 +330,8 @@ a:hover {
   position: absolute;
   top: 15px;
   right: 15px;
-
   width: 20px;
   height: 20px;
-
   cursor: pointer;
 }
 
@@ -413,15 +339,12 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 0;
-
   width: 100%;
   height: 2px;
-
   content: "";
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-
   background: #fff;
 }
 
@@ -429,15 +352,12 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 0;
-
   width: 100%;
   height: 2px;
-
   content: "";
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-
   background: #fff;
 }
 
@@ -446,17 +366,15 @@ a:hover {
 }
 
 .popup .card h3 {
-  margin-top: 0.5em;
-  margin-bottom: 0.8em;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 .popup .card p.subline {
   font-size: 1.6rem;
-
   max-width: 19em;
   margin-right: auto;
   margin-bottom: 2.4em;
   margin-left: auto;
-
   letter-spacing: 0.025em;
 }
